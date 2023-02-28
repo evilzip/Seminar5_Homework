@@ -54,4 +54,4 @@ int MinLimit = InputInt32("Enetr minimal element");
 int MaxLimit = InputInt32("Enetr minimal element");
 int[] RandomArray = GenerateArray(Size, MinLimit, MaxLimit);
 PrintArray(RandomArray);
-System.Console.WriteLine(SumElemntAtOddPosition(RandomArray));
+System.Console.WriteLine($"Sum of elements at odd position = {SumElemntAtOddPosition(RandomArray)}");
